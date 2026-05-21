@@ -1,0 +1,19 @@
+# Core agent stack
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# LLM provider
+openai>=1.40.0
+
+# Tools
+ddgs>=6.0.0            # DuckDuckGo search (free, no API key)
+trafilatura>=1.9.0    # clean web page text extraction
+requests>=2.31.0
+
+# UI
+streamlit>=1.36.0
+
+# Utilities
+python-dotenv>=1.0.0
